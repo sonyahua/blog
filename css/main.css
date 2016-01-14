@@ -17,15 +17,15 @@ html, body {
 
 body {
   color: #4a4a4a;
-  background-color: #fafbfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  background-color: #FFFFFF;
+  font-family: 'Arial',Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 1.0em;
   overflow: hidden;
 }
 
 a {
-  color: #8085C1;
+  color: #00CC90;
   text-decoration: none;
   border: none;
 }
@@ -35,7 +35,7 @@ a img {
 }
 
 a:hover {
-  color: #555;
+  color: #00CC90;
   border: none;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 /*
 /*****************************************************************************/
 #logo {
-  max-width: 128px;
+  max-width: 170px;
 }
 
 .posts a {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .posts a:hover {
-  color: #777;
+  color: #00CC90;
 }
 
 .posts-list {
@@ -65,10 +65,9 @@ a:hover {
 }
 
 .posts-list li {
-  text-align: center;
+  text-align: right;
   line-height: 1.75em;
 }
-
 /*****************************************************************************/
 /*
 /* Site
@@ -93,6 +92,7 @@ a:hover {
   font-weight: 600;
   text-align: center;
   margin-top: 0.5em;
+  margin-bottom: 0.5em;
   display: block;
 }
 
@@ -105,7 +105,6 @@ a:hover {
 
 .footer {
   font-size: 0.95em;
-  border-top: 1px solid #e7e7e7;
   padding-top: 1.25em;
   padding-bottom: 1.5em;
   overflow: hidden;
@@ -127,8 +126,7 @@ a:hover {
   font-weight: 600;
   color: #787878;
 }
-
-#cover-photo-container,
+s
 #info-container {
   display: block;
 }
@@ -142,8 +140,8 @@ a:hover {
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
-  text-transform: uppercase;
 }
+
 
 .post {
   line-height: 24px;
@@ -159,7 +157,7 @@ a:hover {
 
 .post a,
 #about a {
-  border-bottom: 1px solid #8085C1;
+  border-bottom: 1px solid #;
 }
 
 .post a:hover {
@@ -174,8 +172,9 @@ a:hover {
 }
 
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 1.7em;
   margin-bottom: 1.45em;
   text-align: justify;
 }
@@ -224,7 +223,7 @@ a:hover {
 .sidebar {
   float: left;
   width: 14%;
-  padding-left: 11em;
+  padding-left: 7em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
 }
@@ -245,17 +244,19 @@ a:hover {
 
 .post-title {
   font-weight: 600;
-  font-size: 1.25em;
-  text-transform: uppercase;
+  font-size: 1.5em;
+  text-transform: lowercase;
+}
+
+.post-title: hover {
+	color: #00CC90;
 }
 
 .post-date {
-  color: #8a8a8a;
-  font-family: Monaco, "Courier New", monospace;
-  font-weight: 600;
+  font-family: arial;
+  font-weight: 500;
   font-size: 0.65em;
   display: block;
-  text-transform: uppercase;
 }
 
 #sidebar-button {
@@ -266,6 +267,12 @@ a:hover {
   margin-bottom: 10px;
   border-bottom: 1px solid #e7e7e7;
 }
+
+.btn {
+	float: center;
+	width: 70px;
+	height: 70px;
+	 }
 
 #sidebar-button:active,
 #sidebar-button:hover {
