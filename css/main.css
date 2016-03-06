@@ -28,15 +28,28 @@ body {
 /*
 /*****************************************************************************/
 
-@media only screen and (max-device-width: 480px)  {
+@media only screen and (max-device-width: 830px)  {
 
   .content {
   padding-left: .5em;	/*how much space above post title? */
   }
+  
   #post {
-  margin-top: 1em;		/*how much space above post title? */
+  margin-top: .25em;		/*how much space above post title? */
   display: block;
   }
+ 
+ body { overflow-x: scroll; }
+  
+#title {
+  color: black;
+  margin-bottom: 0.65em;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+
+  
   .wrapper-masthead {
   margin-bottom: 1px;
 }
