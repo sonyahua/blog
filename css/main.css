@@ -621,7 +621,8 @@ nav-top-padding-left {
 }
 
 td{ 
-padding: 20px;
+padding-bottom: 15px;
+padding-top: 15px;
 text-align: left;
 }
 
