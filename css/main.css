@@ -99,7 +99,7 @@ text-decoration-style: dashed;
   width: 100%;
   color: #2A2A2A;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.5em;
   text-align: center;
   line-height: 1.25em;
   margin-top: 0.25em;
@@ -480,7 +480,7 @@ nav-top-padding-left {
 
 .post-title {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16x;
 }
 
 .post-title a:hover {
@@ -490,7 +490,7 @@ nav-top-padding-left {
 .post-date {
   font-family: helvetica;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   display: list-item;
 }
 
