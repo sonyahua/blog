@@ -58,7 +58,7 @@ text-decoration-style: dashed;
 /*
 /*****************************************************************************/
 #logo {
-  max-width: 15%;
+  max-width: 100px;
 }
 
 .posts a {
@@ -75,7 +75,7 @@ text-decoration-style: dashed;
 
 .posts-list li {
   text-align: center;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 /*****************************************************************************/
 /*
@@ -99,7 +99,7 @@ text-decoration-style: dashed;
   width: 100%;
   color: #2A2A2A;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   line-height: 1.25em;
   margin-top: 0.25em;
@@ -141,7 +141,7 @@ text-decoration-style: dashed;
 
 
 #info-container {
-  margin-top: 7em;		/*how much space above post title? */
+  margin-top: 5em;		/*how much space above post title? */
   display: block;	
 }
 
@@ -150,7 +150,7 @@ text-decoration-style: dashed;
 #title {
   color: black;
   margin-bottom: 0.65em;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 50px;
 }
 
@@ -187,7 +187,7 @@ text-decoration-style: dashed;
 
 .post p {
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
@@ -473,7 +473,7 @@ nav-top-padding-left {
 .header {
   text-align: center;
   padding-top: 0.5em;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .post-link {
@@ -482,7 +482,7 @@ nav-top-padding-left {
 
 .post-title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .post-title a:hover {
@@ -507,8 +507,8 @@ nav-top-padding-left {
 
 .btn {
 	float: center;
-	width: 70px;
-	height: 70px;
+	width: 40px;
+	height: 40px;
 	 }
 
 #sidebar-button:active,
