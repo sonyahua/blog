@@ -15,20 +15,20 @@ Guggenheim has a new exhibit featuring Peter Fishli and David Weiss's "How to Wo
  </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/last-dinosaur.JPG" >"The last dinosaur on earth"</td>
+<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/last-dinosaur.JPG" >"The Last Dinosaur"</td>
 <td>
 <img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/squirrels.JPG" ></td>
 </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/smoke-break.JPG" ></td>
+<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/smoke-break.JPG" >"Smoking Break"</td>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/rat-maze.JPG" ></td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/rat-maze.JPG" >A human/rat maze</td>
 </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/working.JPG" ></td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/working.JPG" >A staged work station</td>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/sister.JPG" >My lovely sister.</td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/sister.JPG" >My lovely sister</td>
 </tr>
  </table>
