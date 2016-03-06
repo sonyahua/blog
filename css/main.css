@@ -33,15 +33,14 @@ body {
   white-space: pre-wrap;
 }
   .content {
-  padding-left: 1.5em;	/*how much space above post title? */
+  padding-left: .5em;	/*how much space above post title? */
   }
   #post {
   margin-top: 1em;		/*how much space above post title? */
   display: block;
   }
   .wrapper-masthead {
-  margin-bottom: 5px;
-  border-bottom: 2px dotted lightGray;
+  margin-bottom: 1px;
 }
   }
   
