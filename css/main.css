@@ -38,7 +38,7 @@ a:hover {
   border: none;
 }
 
-a.post-title-list:hover {
+a.post-title-list:hover {		/*Hover effect for listed tags of ### */
   color: black ;
   background-color: #00CC90 ;
 }
@@ -58,7 +58,7 @@ text-decoration-style: dashed;
 /*
 /*****************************************************************************/
 #logo {
-  max-width: 25%;
+  max-width: 60%;
 }
 
 .posts a {
@@ -195,7 +195,7 @@ text-decoration-style: dashed;
 
 #tags {
   font-family: helvetica;
-  font-size: 24px;
+  font-size: 20px;				/*listed tags of ### */
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
@@ -273,10 +273,8 @@ text-decoration-style: dashed;
 
 nav-top-left {
     margin-top: 23px;
-	padding-left: 5%;
+	padding-left: 10px;
 	height: 50%;
-    font-family: "Helvetica";
-    font-size: 30px;
   }
   
 /* Grow */
