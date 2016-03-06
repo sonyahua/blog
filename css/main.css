@@ -22,6 +22,11 @@ body {
   font-size: 15px;
   overflow: hidden;
 }
+@media only screen and (min-width: 481px) {
+body {
+  white-space: pre-wrap;
+}}
+
 
 a {
   color: #00CC90;
@@ -139,7 +144,12 @@ text-decoration-style: dashed;
   color: #787878;
 }
 
-
+@media only screen and (min-width: 481px) {
+  #post {
+  margin-top: 1em;		/*how much space above post title? */
+  display: block;
+  }}
+  
 #info-container {
   margin-top: 5em;		/*how much space above post title? */
   display: block;	
@@ -236,6 +246,8 @@ text-decoration-style: dashed;
   margin-bottom: 5px;
   border-bottom: 2px dotted lightGray;
 }
+
+
 
 .masthead {
   padding: 10px 0;
@@ -463,7 +475,11 @@ nav-top-padding-left {
   padding-right: 1.5%;
   border-right: 1px solid #e7e7e7;
 }
-
+@media only screen and (min-width: 481px) {
+  .content {
+  padding-left: 1.5em;	/*how much space above post title? */
+  }}
+  
 .content {
   padding-left: 5em; /*how much padding before post? */
 }
@@ -532,72 +548,6 @@ nav-top-padding-left {
 }
 
 
-
-/*****************************************************************************/
-/*
-/* Right Sidebar and Tags
-/*
-/*****************************************************************************/
-
-.right-sidebar,
-.right-content {
-  vertical-align: top;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
-.right-sidebar {
-  float: right;
-  width: 10%;
-  padding-left: 5%;
-  padding-right: 1.5%;
-}
-
-.right-content {
-  padding-left: 5.125em; /*how much padding before post? */
-}
-
-.right-header {
-  text-align: left;
-  padding-top: 0.5em;
-  font-size: 1.1em;
-}
-
-
-.right-tagline {
-  width: 100%;
-  color: #2A2A2A;
-  font-weight: 600;
-  font-size: 25px;
-  text-align: left;
-  line-height: 1.25em;
-  margin-top: 0.25em;
-  margin-bottom: 0.1em;
-  display: block;
-}
-
-
-.right-post-link {
-  margin-bottom: 0.75em;
-}
-
-.right-post-title {
-  font-weight: 600;
-  font-size: 1.5em;
-}
-
-.right-post-title: hover {
-	color: #00CC90;
-}
-
-.right-post-date {
-  font-family: helvetica;
-  font-weight: 500;
-  font-size: 0.65em;
-  display: list-item;
-}
 
 
 /*****************************************************************************/
