@@ -274,6 +274,7 @@ text-decoration-style: dashed;
 nav-top-left {
     margin-top: 23px;
 	padding-left: 5%;
+	height: 50%;
     font-family: "Helvetica";
     font-size: 30px;
   }
