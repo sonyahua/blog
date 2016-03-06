@@ -175,7 +175,7 @@ text-decoration-style: dashed;
 
   
 #info-container {
-  margin-top: 15%;		/*how much space above post title? */
+  margin-top: 10%;		/*how much space above post title? */
   display: block;	
 }
 
@@ -502,7 +502,7 @@ nav-top-padding-left {
 
   
 .content {
-  padding-left: 5em; /*how much padding before post? */
+  padding-left: 5%; /*how much padding before post? */
 }
 
 .header {
