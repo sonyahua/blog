@@ -427,18 +427,18 @@ nav-top-left {
   nav-top-right {
     margin-top: 23px;
 	float: right;
-    margin: 0 23% 10px 10px;
+    margin: 0 30% 10px 10px;
 	font-weight: bold;
     font-family: "Helvetica", Helvetica, helvetica, sans-serif;
     font-size: 30px;
   }
   
 nav-top-padding {
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 nav-top-padding-left {
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 /*****************************************************************************/
@@ -459,7 +459,7 @@ nav-top-padding-left {
 .sidebar {
   float: left;
   width: 14%;
-  padding-left: 5%;
+  padding-left: 2%;
   padding-right: 1.5%;
   border-right: 1px solid #e7e7e7;
 }
