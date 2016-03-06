@@ -9,26 +9,26 @@ Guggenheim has a new exhibit featuring Peter Fishli and David Weiss's "How to Wo
 
 <table style="width:70%">
   <tr>
-<td><img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/eidlandweiss.JPG" >Art and Me</td>
+<td><img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/eidlandweiss.JPG" ><div class="caption">Art and Me</div></td>
 
-<td><img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/viewing.JPG" >My sister looking at art</td>
+<td><img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/viewing.JPG" ><div class="caption">My sister looking at art</div></td>
  </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/last-dinosaur.JPG" >"The Last Dinosaur"</td>
+<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/last-dinosaur.JPG" ><div class="caption">"The Last Dinosaur"</div></td>
 <td>
 <img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/squirrels.JPG" ></td>
 </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/smoke-break.JPG" >"Smoking Break"</td>
+<img class="magnify container-pics" data-magnifyby="1.75" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/smoke-break.JPG" ><div class="caption">"Smoking Break"</div></td>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/rat-maze.JPG" >A human/rat maze</td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/rat-maze.JPG" ><div class="caption">A human/rat maze</div></td>
 </tr>
 <tr>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/working.JPG" >A staged work station</td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/working.JPG" ><div class="caption">A staged work station</div></td>
 <td>
-<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/sister.JPG" >My lovely sister</td>
+<img class="magnify container-pics" data-magnifyby="1.5" style="width:350px; cursor: url("magnify.cur");" src="/images/postimages/sister.JPG" ><div class="caption">My lovely sister</div></td>
 </tr>
  </table>

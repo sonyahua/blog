@@ -626,6 +626,10 @@ padding-right: 15px;
 text-align: left;
 }
 
+div.caption {
+	display: block;
+}
+
 #about-me-title-container {
   margin-top: 5em;		/*how much space above container? */
 	
