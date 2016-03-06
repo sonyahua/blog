@@ -20,14 +20,32 @@ body {
   font-family: 'helvetica',helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
-  overflow: hidden;
+  overflow:scroll;
 }
-@media only screen and (min-width: 481px) {
+/*****************************************************************************/
+/*
+/* Mobile-Friendly Settings
+/*
+/*****************************************************************************/
+
+@media only screen and (max-device-width: 480px)  {
 body {
   white-space: pre-wrap;
-}}
-
-
+}
+  .content {
+  padding-left: 1.5em;	/*how much space above post title? */
+  }
+  #post {
+  margin-top: 1em;		/*how much space above post title? */
+  display: block;
+  }
+  .wrapper-masthead {
+  margin-bottom: 5px;
+  border-bottom: 2px dotted lightGray;
+}
+  }
+  
+  
 a {
   color: #00CC90;
   text-decoration: none;
@@ -144,11 +162,7 @@ text-decoration-style: dashed;
   color: #787878;
 }
 
-@media only screen and (min-width: 481px) {
-  #post {
-  margin-top: 1em;		/*how much space above post title? */
-  display: block;
-  }}
+
   
 #info-container {
   margin-top: 5em;		/*how much space above post title? */
@@ -475,10 +489,7 @@ nav-top-padding-left {
   padding-right: 1.5%;
   border-right: 1px solid #e7e7e7;
 }
-@media only screen and (min-width: 481px) {
-  .content {
-  padding-left: 1.5em;	/*how much space above post title? */
-  }}
+
   
 .content {
   padding-left: 5em; /*how much padding before post? */
