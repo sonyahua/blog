@@ -150,7 +150,7 @@ text-decoration-style: dashed;
 #title {
   color: black;
   margin-bottom: 0.65em;
-  font-size: 28px;
+  font-size: 30px;
   line-height: 50px;
 }
 
@@ -158,7 +158,7 @@ text-decoration-style: dashed;
 
 .post {
   line-height: 20px;
-  max-width: 70%;			/*how wide is the post? */
+  max-width: 80%;			/*how wide is the post? */
   clear: both;
   padding-bottom: 75px;
 }
@@ -187,7 +187,7 @@ text-decoration-style: dashed;
 
 .post p {
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
@@ -610,7 +610,7 @@ nav-top-padding-left {
     float:left;
 	display:inline;
     position: relative;
-    width: 25%;
+    width: 20%;
 	padding-right: 30px;
 }
 
@@ -622,7 +622,7 @@ nav-top-padding-left {
 
 td{ 
 padding: 20px;
-text-align: center;
+text-align: left;
 }
 
 #about-me-title-container {
