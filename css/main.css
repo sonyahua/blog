@@ -19,7 +19,7 @@ body {
   color: #4a4a4a;
   font-family: 'helvetica',helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.0em;
+  font-size: 16px;
   overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ text-decoration-style: dashed;
 /*
 /*****************************************************************************/
 #logo {
-  max-width: 170px;
+  max-width: 15%;
 }
 
 .posts a {
@@ -99,7 +99,7 @@ text-decoration-style: dashed;
   width: 100%;
   color: #2A2A2A;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   line-height: 1.25em;
   margin-top: 0.25em;
@@ -150,7 +150,7 @@ text-decoration-style: dashed;
 #title {
   color: black;
   margin-bottom: 0.65em;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 50px;
 }
 
@@ -187,7 +187,7 @@ text-decoration-style: dashed;
 
 .post p {
   font-family: helvetica;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
@@ -195,7 +195,7 @@ text-decoration-style: dashed;
 
 #tags {
   font-family: helvetica;
-  font-size: 27px;
+  font-size: 24px;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
@@ -261,7 +261,7 @@ text-decoration-style: dashed;
   cursor: pointer;
   font-family: helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -473,7 +473,7 @@ nav-top-padding-left {
 .header {
   text-align: center;
   padding-top: 0.5em;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .post-link {
@@ -482,7 +482,7 @@ nav-top-padding-left {
 
 .post-title {
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 16px;
 }
 
 .post-title a:hover {
@@ -492,7 +492,7 @@ nav-top-padding-left {
 .post-date {
   font-family: helvetica;
   font-weight: 500;
-  font-size: 0.65em;
+  font-size: 12px;
   display: list-item;
 }
 
