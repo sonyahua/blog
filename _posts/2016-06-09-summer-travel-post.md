@@ -10,5 +10,5 @@ Just finished a semester of Statistics at Baruch and looking forward to the free
 
 Below are the areas we are travelling to: 
 
-<img src="/images/postimages/asia-trip.jpg">
+<img src="/images/postimages/asia-trip.jpg" style="width:75%;height:75%">
 <div class="caption">Summer Travel Plans 2016</div>
