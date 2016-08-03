@@ -18,10 +18,10 @@ tag: [statistics, archive]
 <p>So which methods are simpler? Usually parametric methods since you’ve reduced the issue to estimating a small set of parameters as opposed to making no assumptions at all. However, there are general trade-offs for both.</p>
 
 <h3>General tradeoffs:</h3>
-•	Parametric tend to “over-simplify” the true form of your data.
+•	Parametric tend to “over-simplify” the true form of your data. <p></p>
 •	Non-parametric, if fitted too closely to existing data, tends to suffer more when using the model to estimate new observations
 
-•	Parametric can accept a smaller sample size but this introduces lower confidence intervals
+•	Parametric can accept a smaller sample size but this introduces lower confidence intervals<p></p>
 •	Non-Parametric needs a larger sample size for higher confidence intervals
 
 •	Both methods are susceptible to overfitting or inaccurate estimates if we over-simplify or over-accommodate the model and its data points
