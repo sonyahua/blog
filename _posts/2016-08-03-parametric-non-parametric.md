@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parametric vs. Non-Parametric Methods 101
-date:   2016-06-09 12:00:00
+date:   2016-08-03 12:00:00
 tag: [statistics, archive]
 ---
 
@@ -10,7 +10,7 @@ tag: [statistics, archive]
 <p><b>Parametric Methods – </b>It is parametric if you make assumptions about the functional form or shape of your statistical model (otherwise known more technically as a function). After validating your assumptions, you estimate the parameters of your model. This is the most common method of elementary statistics. </p>
 
 <p>An example of an assumption is that the model follows a <i>linear regression</i> and <i>normal distribution</i>. Your estimated parameters may be the coefficients in your model such as your beta’s. </p>
-
+<p align="center"><img src="/images/postimages/eidlandweiss.JPG"></p>
 <p><b>Non-Parametric Methods –</b> It is non-parametric if you do not make any assumptions about the functional form of your model. You’ll instead estimate the function so it’s a close fit to your data points without being too fitted (a.k.a over-fitted). This allows you to explore many different shapes of your function, but you’ll often need a lot more data points and tweaking of the function in order to accurately estimate your model. </p>
 
 <p>An example of a non-parametric method is <i>Spearman’s rank-order correlation</i> which does not need variables to be normally distributed or linearly related (more on Spearman later). </p>
