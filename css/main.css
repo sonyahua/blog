@@ -119,11 +119,11 @@ text-decoration-style: dashed;
 .site {
   height: 100%;
   width: 100%;
-  line-height: 1.25em;
+  line-height: 1.1em;
 }
 /* post title for side bar */
 .title {
-  display: inline-block;
+  display: list-item;
   text-align: center;
   line-height: 12px;
 }
