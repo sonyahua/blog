@@ -528,7 +528,7 @@ nav-top-padding-left {
   font-family: helvetica;
   font-weight: 500;
   font-size: 12px;
-  display: list-item;
+  display: inline;
 }
 
 #sidebar-button {
