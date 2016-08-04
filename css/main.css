@@ -125,7 +125,7 @@ text-decoration-style: dashed;
 .title {
   display: inline-block;
   text-align: center;
-  line-height: 20px;
+  line-height: 14px;
 }
 
 .tagline {
@@ -164,7 +164,7 @@ text-decoration-style: dashed;
 /*****************************************************************************/
 
 #date {
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 0.25em;
   margin-bottom: 2em;
   text-transform: uppercase;
