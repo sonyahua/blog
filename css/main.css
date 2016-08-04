@@ -121,11 +121,11 @@ text-decoration-style: dashed;
   width: 100%;
   line-height: 1.25em;
 }
-
+/* post title for side bar */
 .title {
   display: inline-block;
   text-align: center;
-  line-height: 14px;
+  line-height: 12px;
 }
 
 .tagline {
@@ -516,8 +516,8 @@ nav-top-padding-left {
 }
 
 .post-title {
-  font-weight: 600;
-  font-size: 16x;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .post-title a:hover {
@@ -527,7 +527,7 @@ nav-top-padding-left {
 .post-date {
   font-family: helvetica;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   display: list-item;
 }
 
