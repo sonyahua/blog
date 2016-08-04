@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glossary of Statistic Terms
-date:   
+date:  2016-01-01 12:00:00
 tag: [statistics, archive]
 ---
 
