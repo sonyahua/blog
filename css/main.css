@@ -260,6 +260,51 @@ text-decoration-style: dashed;
 .post pre.terminal code {
   background-color: #333;
 }
+
+.post pre {
+    box-shadow: 0 0 4px rgba(0,0,0,0.4) inset;
+    background: #f8f8f8;
+    text-shadow: 0 1px 0 #fff;
+    display: block;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.post code {
+    margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 14px;
+	word-wrap: break-word;
+    line-height: 16px;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.post code h1{
+
+    font-family: 'helvetica';
+    font-size: 14px;
+	color:#A30003;
+	font-style: bold;
+}
+.post code cmt{
+
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 14px;
+	color:#0015FF;
+}
+
+
+
 /*****************************************************************************/
 /*
 /* Masthead Work in Progress
