@@ -23,7 +23,7 @@ tag: [statistics, archive]
 
 <h2><u>Scenario 2: 2-to-1 Betting Strategy (i.e. 1st 12 & 2nd 12 numbers)</u></h2>
 
-<p>Let's say after losing very badly in Roulette using the 1:1 strategy, you decide to play it safer by playing <b>2:1</b> on <b>2 sets of numbers</b>, with $15 on each set of number:
+<p>Let's say after losing very badly in Roulette using the 1:1 strategy, you decide to play it safer by playing <b>2:1</b> on <b>2 sets of numbers</b>, with $15 on each set of number. If you win, you win $15. If you lose, you lose $30 this time.
 
 <div align ="center"><img src="/images/postimages/roulette2to1.png"></div>
 <table style="width:100%">
