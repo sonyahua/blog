@@ -1,4 +1,4 @@
 name: The S
 desription: 'A blog on statistics, data visualization, and other journeys by Sonya Hua'
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: pygments
