@@ -25,11 +25,17 @@ body {
   overflow:hidden;
   
 }
+
+@-ms-viewport{
+  width: device-width;
+}
 /*****************************************************************************/
 /*
 /* Mobile-Friendly Settings
 /*
 /*****************************************************************************/
+
+
 
 @media only screen and (max-device-width: 830px)  {
 
