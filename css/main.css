@@ -7,12 +7,14 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 html, body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  
 }
 
 body {
@@ -21,6 +23,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   overflow:hidden;
+  
 }
 /*****************************************************************************/
 /*
@@ -104,6 +107,7 @@ text-decoration-style: dashed;
 
 .posts-list {
   list-style-type: none;
+  position: relative;
 }
 
 .posts-list li {
@@ -533,7 +537,7 @@ nav-top-padding-left {
   vertical-align: top;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
+  overflow-y: inherit;
   overflow-x: hidden;
 }
 
@@ -543,11 +547,13 @@ nav-top-padding-left {
   padding-left: 2%;
   padding-right: 1.5%;
   border-right: 1px solid #e7e7e7;
+  position: relative;
 }
 
   
 .content {
   padding-left: 5%; /*how much padding before post? */
+  positoin: relative;
 }
 
 .header {
