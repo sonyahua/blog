@@ -40,6 +40,7 @@ body {
   #post {
   margin-top: .25em;		/*how much space above post title? */
   display: block;
+  font-size: 1.5em;
   }
  
  body {   
