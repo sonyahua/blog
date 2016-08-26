@@ -63,12 +63,13 @@
   }
 
   #title {
-    font-size: 1.7em;
+    font-size: 1.3em;
 	line-height: normal;
   }
 
   .sidebar {
     transition: 1s;
+    margin-left: -100%;
     z-index: 3;
     width: 35%;
     padding-left: 1.75em;
