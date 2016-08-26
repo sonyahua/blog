@@ -9,7 +9,7 @@ tag: [statistics, archive]
 </head>
 <body>
 <p> I'm going to Vegas soon and one of my all-time favorite betting games is European Roulette. It's a simple game where the dealer spins the wheel and the ball will land on a number. Depending on which number(s) you bet on, you get a certain payout. Of course, the less probable numbers have higher payouts (i.e. betting on a number like 0) and more probable numbers have lower payouts (i.e. betting on all odd numbers)
-<div align ="center"><img src="/images/postimages/roulette-board.jpg"></div>
+<div align ="center"><picture><source srcset="/images/postimages/roulette-board.jpg" media="(max-width: 768px)"><img src="/images/postimages/roulette-board.jpg"></picture></div>
 </p>
 
 <p> Using R, just for kicks, I've simulated 2 scenarios of playing strategies that are frequent among conservative players: 1:1 betting strategy and 2:1 betting strategy (i.e. betting 1st 12 numbers and 2nd 12 numbers). Each scenario consists of 200 spins. <i>Assumptions: It's a fair Roulette wheel and that all spins' outcomes are mutually exclusive of each other. The player will employ the same betting strategy each spin and bet the same amount of money each time.</i>
@@ -25,7 +25,9 @@ tag: [statistics, archive]
 
 <p>Let's say after losing very badly in Roulette using the 1:1 strategy, you decide to play it safer by playing <b>2:1</b> on <b>2 sets of numbers</b>, with $15 on each set of number. If you win, you win $15. If you lose, you lose $30 this time.
 
-<div align ="center"><img src="/images/postimages/roulette2to1.png"></div>
+<div align ="center">
+<picture><source srcset="/images/postimages/roulette2to1.png" media="(max-width: 768px)">
+<img src="/images/postimages/roulette2to1.png"></picture></div>
 <table style="width:100%">
 <tr><td><img src="/images/postimages/prob-win-2-1.png" style="width:90%"></td><td><img src="/images/postimages/runningbal2to1.png" style="width:90%"></td></tr></table>
 
