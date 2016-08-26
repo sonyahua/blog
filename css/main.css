@@ -39,6 +39,9 @@ body {
 
 @media only screen and (max-device-width: 830px)  {
 
+#resp-image {  width: 100%;  height: auto; } 
+
+
   .content {
   padding-left: .2em;	/*how much space above post title? */
   }
@@ -81,8 +84,6 @@ a {
 
 a img {
   outline: none;
-  width: 100%;
-  height: auto;
 }
 
 a:hover {
