@@ -9,7 +9,7 @@ tag: [statistics, archive]
 </head>
 <body>
 <p> I'm going to Vegas soon and one of my all-time favorite betting games is European Roulette. It's a simple game where the dealer spins the wheel and the ball will land on a number. Depending on which number(s) you bet on, you get a certain payout. Of course, the less probable numbers have higher payouts (i.e. betting on a number like 0) and more probable numbers have lower payouts (i.e. betting on all odd numbers)
-<div align ="center"><img src="/images/postimages/roulette-board.jpg" id="resp-image></div>
+<div align ="center"><img src="/images/postimages/roulette-board.jpg" id="resp-image"></div>
 </p>
 
 <p> Using R, just for kicks, I've simulated 2 scenarios of playing strategies that are frequent among conservative players: 1:1 betting strategy and 2:1 betting strategy (i.e. betting 1st 12 numbers and 2nd 12 numbers). Each scenario consists of 200 spins. <i>Assumptions: It's a fair Roulette wheel and that all spins' outcomes are mutually exclusive of each other. The player will employ the same betting strategy each spin and bet the same amount of money each time.</i>
