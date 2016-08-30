@@ -38,7 +38,7 @@ def search_movie_info():
 </code></pre>
 
 <br>
-<p>The resulting read() produces a response in JSON format: </p>
+<p>The resulting read() returns info on "Joy" in JSON format: </p>
 
 <pre><code><cmt>
 {u'tv_season_results': [], u'tv_episode_results': [], u'person_results': [],
