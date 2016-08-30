@@ -89,6 +89,7 @@ a img {
 a:hover {
   color: #00CC90;
   border: none;
+  text-decoration:: none;
 }
 
 a.post-title-list:hover {		/*Hover effect for listed tags of ### */
@@ -97,7 +98,7 @@ a.post-title-list:hover {		/*Hover effect for listed tags of ### */
 }
 
 a.post-link:hover {
-text-decoration: underline;
+text-decoration: none;
 text-decoration-style: dashed;
 }
 
@@ -226,7 +227,7 @@ text-decoration-style: dashed;
 
 .post a,
 #about a {
-  border-bottom: 1px solid #;
+  border-bottom: 1px solid;
 }
 
 .post a:hover {
@@ -265,10 +266,17 @@ text-decoration-style: dashed;
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
+  max-width: 85%;	
+  display: block;
+  word-wrap: break-word;
+  
 }
 
-.post pre code {
+.post pre code{
   border: none;
+  display: block;
+  word-wrap: break-word;
+
 }
 
 /* terminal */
@@ -286,13 +294,15 @@ text-decoration-style: dashed;
     box-shadow: 0 0 4px rgba(0,0,0,0.4) inset;
     background: #f8f8f8;
     text-shadow: 0 1px 0 #fff;
-	text-wrap:normal;
+	word-wrap: break-word;
     padding: 12px 16px;
     font-size: 14px;
     line-height: 16px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+	display: block;
+	overflow-wrap: normal;
 }
 
 .post code {
@@ -302,12 +312,14 @@ text-decoration-style: dashed;
     background-color: #f8f8f8;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-size: 14px;
-	text-wrap: normal;
+	word-wrap: break-word;
     line-height: 16px;
     text-shadow: 0 1px 0 #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+	max-width:85%;
+	overflow-wrap: break-word;
 }
 
 .post code h1{

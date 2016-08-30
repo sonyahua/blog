@@ -33,6 +33,7 @@ tag: [statistics, archive]
 <p>Note, there are significantly more "positive" peaks than the 1:1 strategy, well into the 150th spin, before the running total balance becomes more negative. Even at a loss, the loss is not nearly as great as the 1:1 strategy (about -$100 vs. -$300). Still, it's not a "winning strategy" in the end. Hypothetically, the player can quit while s/he is on a winning streak, but that's only if s/he quits before s/he loses money again. However, this strategy does seem to have more running steam that the other one.</p> 
 
 <p><b><i>How can we improve upon this betting strategy while still employing a 2:1 strategy? How would results look if the player "doubles" its bet after each loss? </i> </b></p>
+
 <pre><code>
 <h1># R Code by Sonya Hua</h1>
 <cmt># roulette with 1:1 payout and betting strategy</cmt>
@@ -74,4 +75,4 @@ cumsum(amtWon) # create a cumulative running total
 plot(cumsum(amtWon),ylab="Running $ Balance", xlab="Spins", 
 main="Running $ Balance with 2:1 Roulette Strategy")
 
-</code></pre>
+</pre></code>
