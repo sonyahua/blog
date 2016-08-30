@@ -7,7 +7,7 @@ tag: [data-visualization, archive]
 <html>
 <head><link rel="stylesheet" href="/css/main.css">
 </head>
-<p>This post focuses on how to retrive data from the web using Python, JSON, and APIs. Tapping into APIs is one of my most favorite coding activities since there is a plethora of information you can access nowadays through API's from weather to directions to movie information.</p>
+<p>This post focuses on how to retrieve data from the web using Python, JSON, and APIs. Tapping into APIs is one of my most favorite coding activities since there is a plethora of information you can access nowadays through API's from weather to directions to movie information.</p>
 
 <p>As part of Udacity's Nanodegree Plus program for Full-Stack Web Developers, one of the projects entail creating a static webpage filled with movie info and trailers of your favorite movies. In Python, I can manually enter the movie info for all my favorite movies into a script file or I can somehow automate the retrieval of info from the web using an <a href="https://www.themoviedb.org/documentation/api">API that stores movie info</a>. This post explores how-to using a <a href="http://stackoverflow.com/questions/2835559/parsing-values-from-a-json-file-in-python">JSON parser</a> and <a href="https://pypi.python.org/pypi/tmdbsimple">'tmdbsimple 1.4'</a> module, a python wrapper for The Movie Database API.</p>
 <p>As an exercise, I would like to retrieve the movie title, synopsis, and release year of one of my most favorite movies "Joy."</p>
