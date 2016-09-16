@@ -2,7 +2,7 @@
 layout: post
 title: Parse JSON Responses via Python (Movie DB API)
 date:   2016-08-30 12:00:00
-tag: [data-visualization, archive]
+tag: [data-visualization, archive, aug-2016]
 ---
 <html>
 <head><link rel="stylesheet" href="/css/main.css">

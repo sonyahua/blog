@@ -42,45 +42,38 @@
   <body>
   
 
+
     
     <div class="site">
     
-    
-    
-      <div class="sidebar id="sidebar">
+  
+      <div class="sidebar" id="sidebar">
         <div class="header">
                     
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
+          <h1 class="title"><a href="/"><img id="logo" alt="The S" src="/images/logo.png"></a></h1>
           <span class="tagline">A blog on statistics, data visualization,
           and other journeys</span>
         </div>
+ <div class="footer">
 
-       <div class="footer">
-
-          <a href="https://github.com/sonyahua"><img class="btn" src="/images/github.png"></a>
-          <a href="https://www.instagram.com/dallying402/"><img class="btn" src="/images/instagram.png"></a>
-          <a href="mailto: sonya.hua@gmail.com"><img class="btn" src="/images/email.png"></a>
+          <a href="https://github.com/sonyahua"><img class="btn" alt="Github" src="/images/github.png"></a>
+          <a href="https://www.instagram.com/dallying402/"><img class="btn" alt="Instagram" src="/images/instagram.png"></a>
+          <a href="mailto: sonya.hua@gmail.com"><img class="btn" alt="e-mail" src="/images/email.png"></a>
           <span id="footer-links">
-          
  <span class="separator"></span>
           </span>
-       
        </div>
-       
-        <div class="posts">
+         
+<div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                   {{ post.title }}<span class="post-date"><i>{{ post.date | date: " | %B %-d" }}</i></span>
-                </a>
-              </li>
-              
-            {% endfor %}
-          </ul>
-        </div>
-                   
+          <li><a href="{{ site.baseurl }}/blog/tag/sep-2016/">September 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/aug-2016/">August 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/jun-2016/">June 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/mar-2016/">March 2016</a></li>
+
 </div>
+</div>
+
         {{ content }}
 
     <script src="/scripts/responsive.js" type="text/javascript"></script>

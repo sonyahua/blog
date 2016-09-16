@@ -2,7 +2,7 @@
 layout: post
 title: Middle East and Asia Travels 2016
 date:   2016-06-09 12:00:00
-tag: [journeys, archive]
+tag: [journeys, archive, jun-2016]
 ---
 
 

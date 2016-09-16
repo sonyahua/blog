@@ -20,8 +20,8 @@ html, body {
 body {
   color: #4a4a4a;
   font-family: 'helvetica',helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 300; 
+  font-size: 14px;
   overflow:hidden;
   
 }
@@ -77,24 +77,33 @@ body {
   
   
 a {
-  color: #00CC90;
+  color: #00CC99;
   text-decoration: none;
   border: none;
+
 }
 
 a img {
   outline: none;
 }
 
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+}
 a:hover {
   color: #00CC90;
   border: none;
-  text-decoration:: none;
+
 }
 
 a.post-title-list:hover {		/*Hover effect for listed tags of ### */
   color: black ;
-  background-color: #00CC90 ;
+  background-color: #00CC90;
+  padding:2px;
+  font-weight:bold;
 }
 
 a.post-link:hover {
@@ -113,6 +122,8 @@ text-decoration-style: dashed;
 /*****************************************************************************/
 #logo {
   max-width: 60%;
+  padding: 1%;
+  margin-top:3%;
 }
 
 .posts a {
@@ -126,6 +137,8 @@ text-decoration-style: dashed;
 .posts-list {
   list-style-type: none;
   position: relative;
+  font-size:14px;
+
 }
 
 .posts-list li {
@@ -225,10 +238,6 @@ text-decoration-style: dashed;
   margin-bottom: 1.25em;
 }
 
-.post a,
-#about a {
-  border-bottom: 1px solid;
-}
 
 .post a:hover {
   border: none;
@@ -255,6 +264,8 @@ text-decoration-style: dashed;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
   text-align: left;
+  font-color: black ;
+  font-weight: bolder;
 }
 
 .post ul, .post ol {
@@ -345,6 +356,7 @@ text-decoration-style: dashed;
 /*****************************************************************************/
 
 .wrapper-masthead {
+  width:100%;
   margin-bottom: 5px;
   border-bottom: 2px dotted lightGray;
 }
@@ -517,6 +529,7 @@ nav-top-left {
 }
 
 .hvr-buzz-out {
+  height:30px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(40%);
@@ -540,11 +553,9 @@ nav-top-left {
   
   nav-top-right {
     margin-top: 23px;
-	float: right;
-    margin: 0 20% 10px 5px;
-	font-weight: bold;
-    font-family: "Helvetica", Helvetica, helvetica, sans-serif;
-    font-size: 30px;
+    margin-left:5%;
+    padding-left:15%;
+    margin: 0 20% 10% 5%;
   }
   
 nav-top-padding {
@@ -553,6 +564,12 @@ nav-top-padding {
 
 nav-top-padding-left {
 	margin-left: 20px;
+}
+
+.tag-pics {
+  min-width: 5%;
+  max-width:12%;
+  max-height:30px;
 }
 
 /*****************************************************************************/
@@ -572,7 +589,7 @@ nav-top-padding-left {
 
 .sidebar {
   float: left;
-  width: 14%;
+  width: 175px;
   padding-left: 2%;
   padding-right: 1.5%;
   border-right: 1px solid #e7e7e7;
@@ -582,12 +599,11 @@ nav-top-padding-left {
   
 .content {
   padding-left: 5%; /*how much padding before post? */
-  positoin: relative;
+  position: relative;
 }
 
 .header {
   text-align: center;
-  padding-top: 0.5em;
   font-size: 14px;
 }
 
@@ -622,8 +638,8 @@ nav-top-padding-left {
 
 .btn {
 	float: center;
-	width: 40px;
-	height: 40px;
+	width: 25%;
+	height: 25%;
 	 }
 
 #sidebar-button:active,

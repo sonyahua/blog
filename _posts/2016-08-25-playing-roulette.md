@@ -2,7 +2,7 @@
 layout: post
 title: Let's Play Roulette! Comparing 1:1 to 2:1 Betting Strategy
 date:   2016-08-25 12:00:00
-tag: [statistics, archive]
+tag: [statistics, archive, aug-2016]
 ---
 <html>
 <head><link rel="stylesheet" href="/css/main.css">

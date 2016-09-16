@@ -47,19 +47,19 @@
         
         <nav-top-left>
         	<nav-top-padding><a href="{{ site.baseurl }}/blog/tag/statistics">
-            <picture><img height="30px" alt="#" src="/images/statistics-mix-verveine.png" class="hvr-buzz-out" ></picture></a> </nav-top-padding>
+            <picture><img alt="#" src="/images/statistics-mix-verveine.png" class="hvr-buzz-out tag-pics" ></picture></a> </nav-top-padding>
             <nav-top-padding><a href="{{ site.baseurl }}/blog/tag/data-visualization" >
-            <picture><img height="30px" alt="#" src="/images/dataviz-mix-verveine.png" class="hvr-buzz-out"></picture></a></nav-top-padding>
+            <picture><img alt="#" src="/images/dataviz-mix-verveine.png" class="hvr-buzz-out tag-pics"></picture></a></nav-top-padding>
             <nav-top-padding><a href="{{ site.baseurl }}/blog/tag/other">
-            <picture><img height="30px" alt="#" src="/images/other-mix-verveine.png"  class="hvr-buzz-out"></picture></a></nav-top-padding>
+            <picture><img  alt="#" src="/images/other-mix-verveine.png"  class="hvr-buzz-out tag-pics"></picture></a></nav-top-padding>
            <a href="{{ site.baseurl }}/blog/tag/journeys">
-           <picture><img height="30px" alt="#" src="/images/journeys-mix-verveine.png"  class="hvr-buzz-out"></picture></a>
+           <picture><img  alt="#" src="/images/journeys-mix-verveine.png"  class="hvr-buzz-out tag-pics"></picture></a>
           </nav-top-left>
           
           
           <nav-top-right>
-        	<nav-top-padding><a href="{{ site.baseurl }}/about"><img height="30px" alt="#" src="/images/about-me.png"  class="hvr-grow"></a> </nav-top-padding>
-            <a href="{{ site.baseurl }}/blog/archive"><img height="30px" alt="#" src="/images/archives.png" class="hvr-grow" ></a> 
+        	<nav-top-padding><a href="{{ site.baseurl }}/about"><img alt="#" src="/images/about-me.png"  class="hvr-grow tag-pics"></a> </nav-top-padding>
+            <a href="{{ site.baseurl }}/blog/archive"><img  alt="#" src="/images/archives.png" class="hvr-grow tag-pics" ></a> 
           </nav-top-right>
           </header>
     </div>
@@ -89,12 +89,23 @@
           </span>
        </div>
          
+<div class="posts">
+          <ul class="posts-list">
+          <li><a href="{{ site.baseurl }}/blog/tag/sep-2016/">September 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/aug-2016/">August 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/jun-2016/">June 2016</a></li>
+          <li><a href="{{ site.baseurl }}/blog/tag/mar-2016/">March 2016</a></li>
+
+</div>
+</div>
+
+ <!--      
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  {{ post.title }}<span class="post-date"><i>{{ post.date | date: " | %B %-d" }}</i></span>
+                  {{ post.title }}
                   
                 </a>
               </li>
@@ -102,8 +113,7 @@
             {% endfor %}
           </ul>
         </div>
-                   
-</div>
+-->
 
         {{ content }}
 

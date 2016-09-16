@@ -2,7 +2,7 @@
 layout: post
 title: Parametric vs. Non-Parametric Methods 101
 date:   2016-08-03 12:00:00
-tag: [statistics, archive]
+tag: [statistics, archive, aug-2016]
 ---
 
 <p>This particular post covers the basics of what people mean when they say <i>parametric </i> or <i>non-parametric</i> statistical methods. If you didn’t initially have a stats educational background (like me), you may have heard these words tossed around by interviewers or folks in the industry, but never had a sit down to learn about it. Today is the day to learn more! </p>
