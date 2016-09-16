@@ -3,23 +3,25 @@
 
 
   <head>
-   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="/scripts/jquery.magnifier.js">
+  <link rel='/favicon.ico' href='favicon.ico' type='image/x-icon'/ >
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Covered+By+Your+Grace|Pacifico|Reenie+Beanie|Roboto|Shadows+Into+Light" rel="stylesheet"> 
+  <script type="text/javascript" src="/scripts/jquery.magnifier.js">
 
 /***********************************************
 * jQuery Image Magnify- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * Please keep this notice intact
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
 ***********************************************/
-  <link rel='/favicon.ico' href='favicon.ico' type='image/x-icon'/ >
+
 </script>   
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>The S | {{ page.title }}</title>
- <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes" >-->
-	
-	<!-- Google Analytics Tracking -->
+     <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes" >-->
+  
+  <!-- Google Analytics Tracking -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,10 +32,10 @@
   ga('send', 'pageview');
 
 </script>
-
       <!-- syntax highlighting CSS -->
       <link rel="stylesheet" href="/css/syntax.css">
-
+      <!-- Normalize rendering across web broswers-->
+      <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
       <!-- Custom CSS -->
       <link rel="stylesheet" href="/css/main.css">
 
@@ -58,8 +60,8 @@
           
           
           <nav-top-right>
-        	<nav-top-padding><a href="{{ site.baseurl }}/about"><img height="30px" alt="#" src="/images/about-me.png"  class="hvr-grow"></a> </nav-top-padding>
-            <a href="{{ site.baseurl }}/blog/archive"><img height="30px" alt="#" src="/images/archives.png" class="hvr-grow" ></a> 
+          <nav-top-padding><a href="{{ site.baseurl }}/about"><img alt="#" src="/images/about-me.png"  class="hvr-grow tag-pics"></a> </nav-top-padding>
+            <a href="{{ site.baseurl }}/blog/archive"><img  alt="#" src="/images/archives.png" class="hvr-grow tag-pics" ></a> 
           </nav-top-right>
           </header>
     </div>
@@ -68,8 +70,6 @@
   <body>
   
 
-    
-   
     
     <div class="site">
     
@@ -100,6 +100,23 @@
 
 </div>
 </div>
+
+ <!--      
+        <div class="posts">
+          <ul class="posts-list">
+            {% for post in site.posts %}
+              <li class="post-link">
+                <a class="post-title" href="{{ post.url }}">
+                  {{ post.title }}
+                  
+                </a>
+              </li>
+              
+            {% endfor %}
+          </ul>
+        </div>
+-->
+
 
 
        
