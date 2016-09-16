@@ -11,4 +11,4 @@ This project is located in my github repository [movies](https://github.com/sony
 
 <h3>A screenshot of my project:</h3>
 
-<p><div align="center"><a href="https://github.com/sonyahua/movies"><img src="/images/postimages/movies.png" width="70%"></a></div></p>
+<p><div align="center"><a href="https://github.com/sonyahua/movies"><img src="/images/postimages/movies.jpg" width="70%"></a></div></p>
