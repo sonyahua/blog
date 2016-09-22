@@ -14,21 +14,54 @@ html, body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  margin-top: 35px;
   
 }
 
+header {
+  z-index: 1;
+position: fixed;
+width: 100%;
+  left: 0; right: 0;
+  top: 0; 
+padding: 10px 0px 0 0px;
+background-color: #C8C8C8;
+}
+
+.header-labels {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight:bold;
+    font-size: 1.75em;
+    padding-bottom:.5%;
+    padding-top:.5%;
+    vertical-align: middle;
+      display: block;
+    word-break: keep-all;
+    /*font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif; */
+}
+
+.header-color {
+  color: #5C5C5C;
+}
+
+
 body {
-  color: #4a4a4a;
+  color: #6A6A6A;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; 
   font-size: 14px;
-  overflow:hidden;
+  overflow:auto;
   
 }
 
-@-ms-viewport{
-  width: device-width;
-}
 /*****************************************************************************/
 /*
 /* Mobile-Friendly Settings
@@ -37,17 +70,21 @@ body {
 
 
 
-@media only screen and (max-device-width: 830px)  {
+@media only screen and (max-width: 830px)  {
 
 #resp-image {  width: 100%;  height: auto; } 
 
 
   .content {
-  padding-left: .2em;	/*how much space above post title? */
+  padding-left: .1em;	/*how much space above post title? */
+  }
+
+  .post-body {
+    overflow: scroll;
   }
   
   #post {
-  margin-top: .25em;		/*how much space above post title? */
+  margin-top: .1em;		/*how much space above post title? */
   display: block;
   }
  
@@ -58,26 +95,29 @@ body {
   .header {
   text-align: center;
   padding-top: 0.5em;
-  font-size: 15px;
 }
 
 #title {
   color: black;
   margin-bottom: 0.65em;
-  font-size: 2.5em;
+  font-size: 1.25em;
   line-height: 12px;
 }
 
 
   
   .wrapper-masthead {
+
   margin-bottom: 1px;
+  top:0; 
+padding: 0px 0 0 0px;
+background-color: #C8C8C8;
 }
   }
   
   
 a {
-  color: #00CC99;
+  color: #454545;
   text-decoration: none;
   border: none;
 
@@ -90,6 +130,7 @@ a img {
 a:visited, a:link, a:active
 {
     text-decoration: none;
+    color:#00CC90;
 }
 
 }
@@ -123,7 +164,7 @@ text-decoration-style: dashed;
 #logo {
   max-width: 60%;
   padding: 1%;
-  margin-top:3%;
+  margin-top:1%;
 }
 
 .posts a {
@@ -155,7 +196,7 @@ text-decoration-style: dashed;
 .site {
   height: 100%;
   width: 100%;
-  line-height: 1.1em;
+  display:flex;
 }
 /* post title for side bar */
 .title {
@@ -167,11 +208,12 @@ text-decoration-style: dashed;
 .tagline {
   width: 105%;
   color: #2A2A2A;
-  font-weight:bold;
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 2.2em;
+  font-weight:600;
+  font-family: 'Roboto Sans', serif;
+  /*font-family: 'Reenie Beanie', cursive; */
+  font-size: 1.6em;
   text-align: center;
-  line-height: .75em;
+  line-height: 1.1em;
   display: block;
 }
 
@@ -210,23 +252,26 @@ text-decoration-style: dashed;
 
   
 #info-container {
-  margin-top: 10%;		/*how much space above post title? */
+  margin-top: 5%;		/*how much space above post title? */
   display: block;	
+
 }
 
 
 
 #title {
-  color: black;
-  margin-bottom: 0.65em;
-  font-size: 30px;
-  line-height: 50px;
+  color: #494949;
+  margin-bottom: 0.75em;
+  font-size: 35px;
+  line-height: 40px;
+  font-family: 'Roboto Sans', serif;
+  width:85%;
 }
 
 
 
 .post {
-  line-height: 20px;
+  line-height: 15px;
   max-width: 85%;			/*how wide is the post? */
   clear: both;
   padding-bottom: 75px;
@@ -251,7 +296,7 @@ text-decoration-style: dashed;
 }
 
 .post p {
-  font-family: helvetica;
+  font-family: 'Roboto', serif;
   font-size: 18px;
   line-height: 1.65em;			/* line spacing for posts */
   margin-bottom: 1.45em;
@@ -357,8 +402,12 @@ text-decoration-style: dashed;
 
 .wrapper-masthead {
   width:100%;
-  margin-bottom: 5px;
+  padding-top:10px;
+  margin-bottom: 2px;
   border-bottom: 2px dotted lightGray;
+  top:0; 
+padding: 0px 0 0 0px;
+background-color: #F6F6F6;
 }
 
 
@@ -398,7 +447,7 @@ text-decoration-style: dashed;
 }
 
 nav-top-left {
-    margin-top: 23px;
+  margin-top: 5px;
 	padding-left: 10px;
 	height: 50%;
   }
@@ -550,27 +599,8 @@ nav-top-left {
   animation-iteration-count: 1;
 }
 
-  
-  nav-top-right {
-    margin-top: 23px;
-    margin-left:5%;
-    padding-left:15%;
-    margin: 0 20% 10% 5%;
-  }
-  
-nav-top-padding {
-	margin-right: 20px;
-}
 
-nav-top-padding-left {
-	margin-left: 20px;
-}
 
-.tag-pics {
-  min-width: 5%;
-  max-width:12%;
-  max-height:30px;
-}
 
 /*****************************************************************************/
 /*
@@ -581,30 +611,30 @@ nav-top-padding-left {
 .sidebar,
 .content {
   vertical-align: top;
-  height: 100%;
   -webkit-overflow-scrolling: touch;
-  overflow-y: inherit;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
 .sidebar {
   float: left;
-  width: 175px;
-  padding-left: 2%;
+  width: 15%;
+  padding-left: .5%;
   padding-right: 1.5%;
-  border-right: 1px solid #e7e7e7;
-  position: relative;
+  border-right: 1px dotted lightGray;
+  position: fixed;
+
 }
 
-  
 .content {
-  padding-left: 5%; /*how much padding before post? */
+  padding-left: 4%; /*how much padding before post? */
   position: relative;
 }
+ 
 
-.header {
-  text-align: center;
-  font-size: 14px;
+.tag-content {
+  padding-left: 7%; /*how much padding before post? */
+  position: relative;
 }
 
 .post-link {
@@ -698,7 +728,82 @@ div.caption {
 }
 
 #about-me-title-container {
-  margin-top: 5em;		/*how much space above container? */
-	
+  margin-top: 5em;		/*how much space above container? */	
+}
+
+
+
+/***********************CSS FRAMEWORK *************************/
+
+.grid {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top:1%;
+    padding-bottom:5%;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    padding-left:2%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.offset-2 {
+  margin-left: 16.66%;
+}
+
+.offset-1 {
+  margin-left: 8.33%;
 }
 
