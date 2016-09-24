@@ -1,0 +1,701 @@
+<!---
+layout: blog_by_tag
+tag: journeys
+permalink: /blog/tag/journeys/
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+
+
+  <link rel='/favicon.ico' href='favicon.ico' type='image/x-icon'/ >
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Covered+By+Your+Grace|Fredericka+the+Great|Lora|Merriweather|Playfair+Display|Reenie+Beanie|Roboto+Slab|Roboto|Waiting+for+the+Sunrise|Yeseva+One" rel="stylesheet">
+
+<!--***********************************************
+* jQuery Image Magnify- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/-->
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes" > -->
+    
+    <!-- Google Analytics Tracking -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-83436405-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+ <head>
+    <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Travel Gallery</title>
+        <meta name="description" content="Travel Gallery - A Responsive Image Gallery of My Travels"/>
+        <meta name="keywords" content="html5, responsive, image gallery, masonry, picture, images, sizes, fluid, history api, visibility api"/>
+        <meta name="author" content="Codrops"/>
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script src="js/modernizr.custom.70736.js"></script>
+    <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+    <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+
+  </head>
+
+  <body>   
+    <header><div class="row wrapper-masthead header-labels" style="position:fixed">
+              <div class="col-1">
+                <a href="{{ site.baseurl }}/blog/tag/statistics">
+                <div class="hvr-grow header-color">Statistics</div></a>
+              </div>
+              
+              <div style="padding-left:3%; width:10%">
+                <a href="{{ site.baseurl }}/blog/tag/data-visualization">
+                <div class="hvr-grow header-color">Coding</div></a>
+              </div>
+                
+              <div class="col-1" style="padding-left:-25%">
+                <a href="{{ site.baseurl }}/blog/tag/other">
+                <div class="hvr-grow header-color">Other</div></a>
+              </div>
+
+              <div class="col-4" style="padding-left:.5%">
+                <a href="{{ site.baseurl }}/blog/tag/journeys">
+                <div class="hvr-grow header-color">Journeys</div></a>
+              </div>
+
+              <div class="col-3">
+               
+               <img src="/images/girl-icon.png" alt="profile-pic" style="width:10%;  vertical-align: middle">
+               <a href="./about"><div class="header-color hvr-grow">
+               About Me</div></a>
+               <a href="./"><img src="/images/home-icon.png" class="hvr-buzz-out" alt="home" style="width:10%; padding-left:10%;  vertical-align: middle" ></a>
+              </div>
+
+
+    </div></header>
+<body>
+        <div class="container">
+    
+      
+      <div class="main">
+
+
+
+            <header><div class="row wrapper-masthead header-labels" style="position:fixed">
+              <div class="col-1">
+                <a href="{{ site.baseurl }}/blog/tag/statistics">
+                <div class="hvr-grow header-color">Statistics</div></a>
+              </div>
+              
+              <div style="padding-left:3%; width:10%">
+                <a href="{{ site.baseurl }}/blog/tag/data-visualization">
+                <div class="hvr-grow header-color">Coding</div></a>
+              </div>
+                
+              <div class="col-1" style="padding-left:-25%">
+                <a href="{{ site.baseurl }}/blog/tag/other">
+                <div class="hvr-grow header-color">Other</div></a>
+              </div>
+
+              <div class="col-4" style="padding-left:.5%">
+                <a href="{{ site.baseurl }}/blog/tag/journeys">
+                <div class="hvr-grow header-color">Journeys</div></a>
+              </div>
+
+              <div class="col-3">
+               
+               <img src="/images/Girl-icon.png" alt="profile-pic" style="width:10%;  vertical-align: middle">
+               <a href="{{ site.baseurl }}/about"><div class="header-color hvr-grow">
+               About Me</div></a>
+               <a href="./"><img src="/images/home-icon.png" class="hvr-buzz-out" alt="home" style="width:10%; padding-left:10%;  vertical-align: middle" ></a>
+              </div>
+
+
+            </div></header>
+
+
+          <div class="clearfix"
+          <h1>My Travels<br><br></h1>
+          <span>A Responsive Image Gallery of My Recent Travels</span>
+
+          <div class="support-note">
+            <span class="note-ie">Sorry, only modern browsers.</span>
+          </div></div>
+          
+        
+        <div class="gamma-container gamma-loading" id="gamma-container">
+
+          <ul class="gamma-gallery">
+
+            <li>
+              <div data-alt="angkor-wat" data-description="<h3>Angkor Wat</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/angkorwat.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/angkorwat.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/angkorwat.jpg" data-min-width="700"></div>
+                <div data-src="images/large/angkorwat.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/angkorwat.jpg" data-min-width="200"></div>
+                <div data-src="images/small/angkorwat.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/angkorwat.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/angkorwat.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="angkor-wat" data-description="<h3>Angkor Wat</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/angkorwat2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/angkorwat2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/angkorwat2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/angkorwat2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/angkorwat2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/angkorwat2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/angkorwat2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/angkorwat2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="bangkok" data-description="<h3>Bangkok</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/bangkok.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/bangkok.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/bangkok.jpg" data-min-width="700"></div>
+                <div data-src="images/large/bangkok.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/bangkok.jpg" data-min-width="200"></div>
+                <div data-src="images/small/bangkok.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/bangkok.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/bangkok.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="bangkok2" data-description="<h3>Bangkok</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/bangkok2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/bangkok2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/bangkok2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/bangkok2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/bangkok2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/bangkok2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/bangkok2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/bangkok2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Barcelona" data-description="<h3>Barcelona</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/barcelona.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/barcelona.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/barcelona.jpg" data-min-width="700"></div>
+                <div data-src="images/large/barcelona.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/barcelona.jpg" data-min-width="200"></div>
+                <div data-src="images/small/barcelona.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/barcelona.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/barcelona.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Barcelona2" data-description="<h3>Barcelona</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/barcelona2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/barcelona2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/barcelona2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/barcelona2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/barcelona2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/barcelona2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/barcelona2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/barcelona2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Breakneck Ridge" data-description="<h3>Breakneck Ridge, NY</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/breakneck.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/breakneck.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/breakneck.jpg" data-min-width="700"></div>
+                <div data-src="images/large/breakneck.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/breakneck.jpg" data-min-width="200"></div>
+                <div data-src="images/small/breakneck.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/breakneck.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/breakneck.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Budapest" data-description="<h3>Budapest</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/budapest.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/budapest.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/budapest.jpg" data-min-width="700"></div>
+                <div data-src="images/large/budapest.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/budapest.jpg" data-min-width="200"></div>
+                <div data-src="images/small/budapest.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/budapest.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/budapest.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Budapest2" data-description="<h3>Budapest</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/budapest2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/budapest2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/budapest2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/budapest2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/budapest2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/budapest2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/budapest2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/budapest2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Santa Barbara" data-description="<h3>Santa Barbara</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/cali.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/cali.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/cali.jpg" data-min-width="700"></div>
+                <div data-src="images/large/cali.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/cali.jpg" data-min-width="200"></div>
+                <div data-src="images/small/cali.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/cali.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/cali.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Cali Highway" data-description="<h3>Pacific Coast Highway</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/cali2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/cali2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/cali2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/cali2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/cali2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/cali2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/cali2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/cali2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Chicago" data-description="<h3>Chicago</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/chicago.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/chicago.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/chicago.jpg" data-min-width="700"></div>
+                <div data-src="images/large/chicago.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/chicago.jpg" data-min-width="200"></div>
+                <div data-src="images/small/chicago.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/chicago.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/chicago.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Colorado" data-description="<h3>Colorado</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/colorado.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/colorado.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/colorado.jpg" data-min-width="700"></div>
+                <div data-src="images/large/colorado.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/colorado.jpg" data-min-width="200"></div>
+                <div data-src="images/small/colorado.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/colorado.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/colorado.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Tamarindo Beach" data-description="<h3>Puerto Rico</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/culebra.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/culebra.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/culebra.jpg" data-min-width="700"></div>
+                <div data-src="images/large/culebra.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/culebra.jpg" data-min-width="200"></div>
+                <div data-src="images/small/culebra.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/culebra.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/culebra.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Dubai" data-description="<h3>Dubai</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/dubai.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/dubai.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/dubai.jpg" data-min-width="700"></div>
+                <div data-src="images/large/dubai.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/dubai.jpg" data-min-width="200"></div>
+                <div data-src="images/small/dubai.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/dubai.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/dubai.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Dubai Desert" data-description="<h3>Dubai</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/desert.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/desert.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/desert.jpg" data-min-width="700"></div>
+                <div data-src="images/large/desert.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/desert.jpg" data-min-width="200"></div>
+                <div data-src="images/small/desert.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/desert.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/desert.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Grand-Canyon" data-description="<h3>Grand Canyon</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/grand-canyon.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/grand-canyon.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/grand-canyon.jpg" data-min-width="700"></div>
+                <div data-src="images/large/grand-canyon.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/grand-canyon.jpg" data-min-width="200"></div>
+                <div data-src="images/small/grand-canyon.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/grand-canyon.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/grand-canyon.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Grand-Canyon2" data-description="<h3>Grand Canyon</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/grand-canyon-2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/grand-canyon-2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/grand-canyon-2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/grand-canyon-2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/grand-canyon-2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/grand-canyon-2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/grand-canyon-2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/grand-canyon-2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Hong-Kong" data-description="<h3>Hong Kong</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/hongkong.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/hongkong.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/hongkong.jpg" data-min-width="700"></div>
+                <div data-src="images/large/hongkong.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/hongkong.jpg" data-min-width="200"></div>
+                <div data-src="images/small/hongkong.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/hongkong.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/hongkong.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Hong-Kong2" data-description="<h3>Hong Kong</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/hongkong2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/hongkong2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/hongkong2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/hongkong2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/hongkong2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/hongkong2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/hongkong2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/hongkong2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Hong-Kong3" data-description="<h3>Hong Kong</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/hongkong3.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/hongkong3.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/hongkong3.jpg" data-min-width="700"></div>
+                <div data-src="images/large/hongkong3.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/hongkong3.jpg" data-min-width="200"></div>
+                <div data-src="images/small/hongkong3.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/hongkong3.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/hongkong3.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+            <li>
+              <div data-alt="Istanbul, Turkey" data-description="<h3>Istanbul</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/istanbul.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/istanbul.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/istanbul.jpg" data-min-width="700"></div>
+                <div data-src="images/large/istanbul.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/istanbul.jpg" data-min-width="200"></div>
+                <div data-src="images/small/istanbul.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/istanbul.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/istanbul.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Istanbul" data-description="<h3>Istanbul</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/istanbul2.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/istanbul2.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/istanbul2.jpg" data-min-width="700"></div>
+                <div data-src="images/large/istanbul2.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/istanbul2.jpg" data-min-width="200"></div>
+                <div data-src="images/small/istanbul2.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/istanbul2.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/istanbul2.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Jebel-Shams" data-description="<h3>Jebel Shams</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/jebel-shams.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/jebel-shams.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/jebel-shams.jpg" data-min-width="700"></div>
+                <div data-src="images/large/jebel-shams.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/jebel-shams.jpg" data-min-width="200"></div>
+                <div data-src="images/small/jebel-shams.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/jebel-shams.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/jebel-shams.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Jiu-Fen" data-description="<h3>Jiu Fen, Taiwan</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/jiufen.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/jiufen.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/jiufen.jpg" data-min-width="700"></div>
+                <div data-src="images/large/jiufen.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/jiu,fen.jpg" data-min-width="200"></div>
+                <div data-src="images/small/jiufen.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/jiufen.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/jiufen.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Kuala Lumpur" data-description="<h3>Kuala Lumpur</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/kualalumpur.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/kualalumpur.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/kualalumpur.jpg" data-min-width="700"></div>
+                <div data-src="images/large/kualalumpur.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/kualalumpur.jpg" data-min-width="200"></div>
+                <div data-src="images/small/kualalumpur.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/kualalumpur.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/kualalumpur.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Kyoto" data-description="<h3>Kyoto</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/kyoto.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/kyoto.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/kyoto.jpg" data-min-width="700"></div>
+                <div data-src="images/large/kyoto.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/kyoto.jpg" data-min-width="200"></div>
+                <div data-src="images/small/kyoto.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/kyoto.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/kyoto.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Kyoto" data-description="<h3>Kyoto</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/kyoto3.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/kyoto3.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/kyoto3.jpg" data-min-width="700"></div>
+                <div data-src="images/large/kyoto3.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/kyoto3.jpg" data-min-width="200"></div>
+                <div data-src="images/small/kyoto3.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/kyoto3.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/kyoto3.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+            <li>
+              <div data-alt="Kyoto" data-description="<h3>Kyoto</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/kyoto4.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/kyoto4.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/kyoto4.jpg" data-min-width="700"></div>
+                <div data-src="images/large/kyoto4.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/kyoto4.jpg" data-min-width="200"></div>
+                <div data-src="images/small/kyoto4.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/kyoto4.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/kyoto4.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+
+            <li>
+              <div data-alt="Los-Angelos" data-description="<h3>Dodgers Stadium</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/la.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/la.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/la.jpg" data-min-width="700"></div>
+                <div data-src="images/large/la.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/la.jpg" data-min-width="200"></div>
+                <div data-src="images/small/la.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/la.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/la.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+
+            <li>
+              <div data-alt="seattle" data-description="<h3>Seattle</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/seattle.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/seattle.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/seattle.jpg" data-min-width="700"></div>
+                <div data-src="images/large/seattle.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/seattle.jpg" data-min-width="200"></div>
+                <div data-src="images/small/seattle.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/seattle.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/seattle.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+
+            <li>
+              <div data-alt="LV" data-description="<h3>Las Vegas</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/lasvegas.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/lasvegas.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/lasvegas.jpg" data-min-width="700"></div>
+                <div data-src="images/large/lasvegas.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/lasvegas.jpg" data-min-width="200"></div>
+                <div data-src="images/small/lasvegas.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/lasvegas.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/lasvegas.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div data-alt="miami" data-description="<h3>Miami</h3>" data-max-width="1800" data-max-height="1350">
+                <div data-src="images/xxxlarge/miami.jpg" data-min-width="1300"></div>
+                <div data-src="images/xxlarge/miami.jpg" data-min-width="1000"></div>
+                <div data-src="images/xlarge/miami.jpg" data-min-width="700"></div>
+                <div data-src="images/large/miami.jpg" data-min-width="300"></div>
+                <div data-src="images/medium/miami.jpg" data-min-width="200"></div>
+                <div data-src="images/small/miami.jpg" data-min-width="140"></div>
+                <div data-src="images/xsmall/miami.jpg"></div>
+                <noscript>
+                  <img src="images/xsmall/miami.jpg" alt="img03"/>
+                </noscript>
+              </div>
+            </li>
+
+
+
+          </ul>
+
+          <div class="gamma-overlay"></div>
+
+          <div id="loadmore" class="loadmore">Load More...</div>
+
+        </div>
+
+      </div><!--/main-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.masonry.min.js"></script>
+    <script src="js/jquery.history.js"></script>
+    <script src="js/js-url.min.js"></script>
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="js/gamma.js"></script>
+    <script type="text/javascript">
+      
+      $(function() {
+
+        var GammaSettings = {
+            // order is important!
+            viewport : [ {
+              width : 1200,
+              columns : 5
+            }, {
+              width : 900,
+              columns : 4
+            }, {
+              width : 500,
+              columns : 3
+            }, { 
+              width : 320,
+              columns : 2
+            }, { 
+              width : 0,
+              columns : 2
+            } ]
+        };
+
+        Gamma.init( GammaSettings, fncallback );
+
+
+        // Example how to add more items (just a dummy):
+
+        var page = 0,
+          items = ['<li><div data-alt="Santorini" data-description="<h3>Santorini</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/santorini.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/santorini.jpg" data-min-width="1000"></div><div data-src="images/xlarge/santorini.jpg" data-min-width="700"></div><div data-src="images/large/santorini.jpg" data-min-width="300"></div><div data-src="images/medium/santorini.jpg" data-min-width="200"></div><div data-src="images/small/santorini.jpg" data-min-width="140"></div><div data-src="images/xsmall/santorini.jpg"></div><noscript><img src="images/xsmall/santorini.jpg" alt="img03"/></noscript></div></li><li><div data-alt="louvre" data-description="<h3>Paris</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/louvre.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/louvre.jpg" data-min-width="1000"></div><div data-src="images/xlarge/louvre.jpg" data-min-width="700"></div><div data-src="images/large/louvre.jpg" data-min-width="300"></div><div data-src="images/medium/louvre.jpg" data-min-width="200"></div><div data-src="images/small/louvre.jpg" data-min-width="140"></div><div data-src="images/xsmall/louvre.jpg"></div><noscript><img src="images/xsmall/louvre.jpg" alt="img03"/></noscript></div></li><li><div data-alt="muscat" data-description="<h3>Muscat, Oman</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/muscat.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/muscat.jpg" data-min-width="1000"></div><div data-src="images/xlarge/muscat.jpg" data-min-width="700"></div><div data-src="images/large/muscat.jpg" data-min-width="300"></div><div data-src="images/medium/muscat.jpg" data-min-width="200"></div><div data-src="images/small/muscat.jpg" data-min-width="140"></div><div data-src="images/xsmall/muscat.jpg"></div><noscript><img src="images/xsmall/muscat.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Mykonos" data-description="<h3>Mykonos</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/mykonos.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/mykonos.jpg" data-min-width="1000"></div><div data-src="images/xlarge/mykonos.jpg" data-min-width="700"></div><div data-src="images/large/mykonos.jpg" data-min-width="300"></div><div data-src="images/medium/mykonos.jpg" data-min-width="200"></div><div data-src="images/small/mykonos.jpg" data-min-width="140"></div><div data-src="images/xsmall/mykonos.jpg"></div><noscript><img src="images/xsmall/mykonos.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Mykonos" data-description="<h3>Mykonos, Greece</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/mykonos2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/mykonos2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/mykonos2.jpg" data-min-width="700"></div><div data-src="images/large/mykonos2.jpg" data-min-width="300"></div><div data-src="images/medium/mykonos2.jpg" data-min-width="200"></div><div data-src="images/small/mykonos2.jpg" data-min-width="140"></div><div data-src="images/xsmall/mykonos2.jpg"></div><noscript><img src="images/xsmall/mykonos2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Nizwa" data-description="<h3>Nizwa, Oman</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/nizwa.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/nizwa.jpg" data-min-width="1000"></div><div data-src="images/xlarge/nizwa.jpg" data-min-width="700"></div><div data-src="images/large/nizwa.jpg" data-min-width="300"></div><div data-src="images/medium/nizwa.jpg" data-min-width="200"></div><div data-src="images/small/nizwa.jpg" data-min-width="140"></div><div data-src="images/xsmall/nizwa.jpg"></div><noscript><img src="images/xsmall/nizwa.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Nizwa2" data-description="<h3>Nizwa, Oman</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/nizwa2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/nizwa2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/nizwa2.jpg" data-min-width="700"></div><div data-src="images/large/nizwa2.jpg" data-min-width="300"></div><div data-src="images/medium/nizwa2.jpg" data-min-width="200"></div><div data-src="images/small/nizwa2.jpg" data-min-width="140"></div><div data-src="images/xsmall/nizwa2.jpg"></div><noscript><img src="images/xsmall/nizwa2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="NYC3" data-description="<h3>New York City</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/nyc3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/nyc3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/nyc3.jpg" data-min-width="700"></div><div data-src="images/large/nyc3.jpg" data-min-width="300"></div><div data-src="images/medium/nyc3.jpg" data-min-width="200"></div><div data-src="images/small/nyc3.jpg" data-min-width="140"></div><div data-src="images/xsmall/nyc3.jpg"></div><noscript><img src="images/xsmall/nyc3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Oman" data-description="<h3>Oman</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/oman.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/oman.jpg" data-min-width="1000"></div><div data-src="images/xlarge/oman.jpg" data-min-width="700"></div><div data-src="images/large/oman.jpg" data-min-width="300"></div><div data-src="images/medium/oman.jpg" data-min-width="200"></div><div data-src="images/small/oman.jpg" data-min-width="140"></div><div data-src="images/xsmall/oman.jpg"></div><noscript><img src="images/xsmall/oman.jpg" alt="img03"/></noscript></div></li><li><div data-alt="pr" data-description="<h3>Puerto Rico</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/pr.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/pr.jpg" data-min-width="1000"></div><div data-src="images/xlarge/pr.jpg" data-min-width="700"></div><div data-src="images/large/pr.jpg" data-min-width="300"></div><div data-src="images/medium/pr.jpg" data-min-width="200"></div><div data-src="images/small/pr.jpg" data-min-width="140"></div><div data-src="images/xsmall/pr.jpg"></div><noscript><img src="images/xsmall/pr.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Prague" data-description="<h3>Prague</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/prague.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/prague.jpg" data-min-width="1000"></div><div data-src="images/xlarge/prague.jpg" data-min-width="700"></div><div data-src="images/large/prague.jpg" data-min-width="300"></div><div data-src="images/medium/prague.jpg" data-min-width="200"></div><div data-src="images/small/prague.jpg" data-min-width="140"></div><div data-src="images/xsmall/prague.jpg"></div><noscript><img src="images/xsmall/prague.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Prague2" data-description="<h3>PragueL</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/prague2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/prague2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/prague2.jpg" data-min-width="700"></div><div data-src="images/large/prague2.jpg" data-min-width="300"></div><div data-src="images/medium/prague2.jpg" data-min-width="200"></div><div data-src="images/small/prague2.jpg" data-min-width="140"></div><div data-src="images/xsmall/prague2.jpg"></div><noscript><img src="images/xsmall/prague2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="San Francisco" data-description="<h3>San Francisco</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/sanfran.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/sanfran.jpg" data-min-width="1000"></div><div data-src="images/xlarge/sanfran.jpg" data-min-width="700"></div><div data-src="images/large/sanfran.jpg" data-min-width="300"></div><div data-src="images/medium/sanfran.jpg" data-min-width="200"></div><div data-src="images/small/sanfran.jpg" data-min-width="140"></div><div data-src="images/xsmall/sanfran.jpg"></div><noscript><img src="images/xsmall/sanfran.jpg" alt="img03"/></noscript></div></li><li><div data-alt="San Francisco" data-description="<h3>San Francisco</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/sanfran2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/sanfran2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/sanfran2.jpg" data-min-width="700"></div><div data-src="images/large/sanfran2.jpg" data-min-width="300"></div><div data-src="images/medium/sanfran2.jpg" data-min-width="200"></div><div data-src="images/small/sanfran2.jpg" data-min-width="140"></div><div data-src="images/xsmall/sanfran2.jpg"></div><noscript><img src="images/xsmall/sanfran2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Santorini" data-description="<h3>Santorini</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/santorini2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/santorini2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/santorini2.jpg" data-min-width="700"></div><div data-src="images/large/santorini2.jpg" data-min-width="300"></div><div data-src="images/medium/santorini2.jpg" data-min-width="200"></div><div data-src="images/small/santorini2.jpg" data-min-width="140"></div><div data-src="images/xsmall/santorini2.jpg"></div><noscript><img src="images/xsmall/santorini2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="seals" data-description="<h3>Pacific Coast Highway</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/seals.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/seals.jpg" data-min-width="1000"></div><div data-src="images/xlarge/seals.jpg" data-min-width="700"></div><div data-src="images/large/seals.jpg" data-min-width="300"></div><div data-src="images/medium/seals.jpg" data-min-width="200"></div><div data-src="images/small/seals.jpg" data-min-width="140"></div><div data-src="images/xsmall/seals.jpg"></div><noscript><img src="images/xsmall/seals.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Seattle2" data-description="<h3>Seattle</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/seattle2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/seattle2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/seattle2.jpg" data-min-width="700"></div><div data-src="images/large/seattle2.jpg" data-min-width="300"></div><div data-src="images/medium/seattle2.jpg" data-min-width="200"></div><div data-src="images/small/seattle2.jpg" data-min-width="140"></div><div data-src="images/xsmall/seattle2.jpg"></div><noscript><img src="images/xsmall/seattle2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="seine" data-description="<h3>Paris</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/seine.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/seine.jpg" data-min-width="1000"></div><div data-src="images/xlarge/seine.jpg" data-min-width="700"></div><div data-src="images/large/seine.jpg" data-min-width="300"></div><div data-src="images/medium/seine.jpg" data-min-width="200"></div><div data-src="images/small/seine.jpg" data-min-width="140"></div><div data-src="images/xsmall/seine.jpg"></div><noscript><img src="images/xsmall/seine.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Siem Reap" data-description="<h3>Siem Reap</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/siemreap.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/siemreap.jpg" data-min-width="1000"></div><div data-src="images/xlarge/siemreap.jpg" data-min-width="700"></div><div data-src="images/large/siemreap.jpg" data-min-width="300"></div><div data-src="images/medium/siemreap.jpg" data-min-width="200"></div><div data-src="images/small/siemreap.jpg" data-min-width="140"></div><div data-src="images/xsmall/siemreap.jpg"></div><noscript><img src="images/xsmall/siemreap.jpg" alt="img03"/></noscript></div></li><li><div data-alt="taipei" data-description="<h3>Taipei, Taiwan</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/taipei.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/taipei.jpg" data-min-width="1000"></div><div data-src="images/xlarge/taipei.jpg" data-min-width="700"></div><div data-src="images/large/taipei.jpg" data-min-width="300"></div><div data-src="images/medium/taipei.jpg" data-min-width="200"></div><div data-src="images/small/taipei.jpg" data-min-width="140"></div><div data-src="images/xsmall/taipei.jpg"></div><noscript><img src="images/xsmall/taipei.jpg" alt="img03"/></noscript></div></li><li><div data-alt="taipei2" data-description="<h3>MTaipei, Taiwan</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/taipei2.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/taipei2.jpg" data-min-width="1000"></div><div data-src="images/xlarge/taipei2.jpg" data-min-width="700"></div><div data-src="images/large/taipei2.jpg" data-min-width="300"></div><div data-src="images/medium/taipei2.jpg" data-min-width="200"></div><div data-src="images/small/taipei2.jpg" data-min-width="140"></div><div data-src="images/xsmall/taipei2.jpg"></div><noscript><img src="images/xsmall/taipei2.jpg" alt="img03"/></noscript></div></li><li><div data-alt="Tokyo" data-description="<h3>Tokyo</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/tokyo.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/tokyo.jpg" data-min-width="1000"></div><div data-src="images/xlarge/tokyo.jpg" data-min-width="700"></div><div data-src="images/large/tokyo.jpg" data-min-width="300"></div><div data-src="images/medium/tokyo.jpg" data-min-width="200"></div><div data-src="images/small/tokyo.jpg" data-min-width="140"></div><div data-src="images/xsmall/tokyo.jpg"></div><noscript><img src="images/xsmall/tokyo.jpg" alt="img03"/></noscript></div></li>']
+
+        function fncallback() {
+
+          $( '#loadmore' ).show().on( 'click', function() {
+
+            ++page;
+            var newitems = items[page-1]
+            if( page <= 1 ) {
+              
+              Gamma.add( $( newitems ) );
+
+            }
+            if( page === 1 ) {
+
+              $( this ).remove();
+
+            }
+
+          } );
+
+        }
+
+      });
+
+    </script> 
+  </body>
+  
+
+  </body>
+</html>

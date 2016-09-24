@@ -19,7 +19,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>{{ page.title }}</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes" >
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes" > -->
 	
 	<!-- Google Analytics Tracking -->
     <script>
@@ -41,41 +41,46 @@
 
       <link rel="stylesheet" href="../css/main.css">
       <script src="/scripts/responsive.js" type="text/javascript"></script>
-
-  </head>
-
-  <body>   
-    <header><div class="row wrapper-masthead header-labels" style="position:fixed">
+   <header><div class="row wrapper-masthead header-labels" style="position:fixed">
               <div class="col-1">
-                <a href="{{ site.baseurl }}/blog/tag/statistics">
+                <a href="/blog/tag/statistics">
                 <div class="hvr-grow header-color">Statistics</div></a>
               </div>
               
               <div style="padding-left:3%; width:10%">
-                <a href="{{ site.baseurl }}/blog/tag/data-visualization">
+                <a href="/blog/tag/data-visualization">
                 <div class="hvr-grow header-color">Coding</div></a>
               </div>
                 
               <div class="col-1" style="padding-left:-25%">
-                <a href="{{ site.baseurl }}/blog/tag/other">
+                <a href="/blog/tag/other">
                 <div class="hvr-grow header-color">Other</div></a>
               </div>
 
               <div class="col-4" style="padding-left:.5%">
-                <a href="{{ site.baseurl }}/blog/tag/journeys">
+                <a href="/travel">
                 <div class="hvr-grow header-color">Journeys</div></a>
               </div>
 
-              <div class="col-3">
+              <div class="col-4">
                
                <img src="/images/Girl-icon.png" alt="profile-pic" style="width:10%;  vertical-align: middle">
-               <a href="{{ site.baseurl }}/about"><div class="header-color hvr-grow">
+               <a href="./about"><div class="header-color hvr-grow">
                About Me</div></a>
-               <a href="./"><img src="/images/home-icon.png" class="hvr-buzz-out" alt="home" style="width:10%; padding-left:10%;  vertical-align: middle" ></a>
+               <a href="/"><img src="/images/home-icon.png" class="hvr-buzz-out" alt="home" style="width:10%; margin-left:7%;  vertical-align: middle" ></a>
               </div>
 
 
     </div></header>
+  </head>
+
+  <body>   
+
+        <div class="container">
+    
+      
+        <div class="main">
+
 
     <div class="row">
       <div class="sidebar" id="sidebar">
@@ -125,6 +130,7 @@
         {{ content }}
 </div>
 </div>
-
+</div>
+</body>
   </body>
 </html>
