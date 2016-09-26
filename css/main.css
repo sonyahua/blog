@@ -10,13 +10,6 @@
   
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  margin-top: 35px;
-  
-}
 
 header {
   z-index: 1;
@@ -57,8 +50,12 @@ body {
   color: #6A6A6A;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; 
-  font-size: 14px;
-  overflow:auto;
+  font-size: 14px; 
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+      margin-top: 35px;
+}
   
 }
 
@@ -67,6 +64,18 @@ body {
   max-width: 1580px;
   margin: 0 auto;
 }
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
 
 /*****************************************************************************/
 /*
